@@ -12,7 +12,7 @@ const ApplicationWrapper = () => {
   const { showLogin, authState } = useContext(AuthContext)
 
   // We can have this component do authentication checks every X minutes
-  // and log people back out, or do other validation stuff. 
+  // and log people back out, or do other validation stuff within other parts of the application. 
   // E.G - on all post and get requests, verify the user is still logged in (if its very sensitive information)
 
   // We will show the login by default
